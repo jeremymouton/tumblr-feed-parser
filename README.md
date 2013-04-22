@@ -1,6 +1,6 @@
 ## Tumblr feed parser
 
-*Simple JSON feed parser for Tumblr.*
+*Simple JSON feed parser for Tumblr blogs.*
 
 - Styled with [Twitter Bootstrap](twitter.github.com/bootstrap/).
 - Using [Moment.js](http://momentjs.com) to format the date.
