@@ -15,7 +15,5 @@ To pull in another feed edit ````var blog_url ```` with ````http://YOURBLOG.tumb
 Use this script on your own page and feed it using recipes from [IFTTT](https://ifttt.com/):
 
 - Dropbox to Tumblr [recipe](https://ifttt.com/recipes/90662)
-
 - Evernote to Tumblr [recipe](https://ifttt.com/recipes/90663)
-
-- Create an RSS recipe to publish your Twitter feed and other social activity to Tumblr.
+- Create an RSS recipe to publish your Twitter and Github feeds to Tumblr.
