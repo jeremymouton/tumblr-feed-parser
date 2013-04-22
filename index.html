@@ -26,6 +26,11 @@
 			border: 1px #eee solid;
 		}
 
+		.bordered {
+			border-top: 1px #eee solid;
+			padding-top: 40px;
+		}
+
 		/* 
 		   Responsive youtube videos 
 		   source: http://avexdesigns.com/responsive-youtube-embed/ 
@@ -65,10 +70,9 @@
 	<script src="//code.jquery.com/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
 
-	<!-- https://api.twitter.com/1/statuses/user_timeline/jeremymouton.json -->
 	<script>
 
-		var blog_url    = 'http://greentype.tumblr.com';
+		var blog_url    = 'http://jeremymouton.tumblr.com';
 		var tumblr_feed = blog_url + '/api/read/json?callback=?';
 
 		$.getJSON(tumblr_feed, function(data) {
@@ -116,6 +120,17 @@
 
 			// Send it to the view
 			$('#main').append('<div class="post row"><div class="span12"><span class="post-date">' + date + '</span><div class="content">' + content + '</div></div></div>');
+
+			// Remove duplicate dates
+			// http://stackoverflow.com/a/2822974
+			var seen = {};
+			$('.post-date').each(function() {
+				var txt = $(this).text();
+				if (seen[txt])
+					$(this).hide().next().addClass('bordered');
+				else
+					seen[txt] = true;
+			});
 		}
 
 	</script>
