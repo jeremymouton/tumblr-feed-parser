@@ -107,7 +107,7 @@
 		}
 
 		function formatPost(post) {
-			date    = moment(post['date'], 'ddd, D MMM YYYY HH:mm:ss').format('MMMM Do YYYY');
+			date    = moment.unix(post['unix-timestamp']).format('MMMM Do YYYY');
 			content = post['regular-body'];
 			type    = post.type;
 
