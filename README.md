@@ -8,9 +8,7 @@ Working example: [www.jeremymouton.com](http://www.jeremymouton.com/)
 - Using [Moment.js](http://momentjs.com) to format the date.
 - Using [FontAwesome](http://fortawesome.github.io/Font-Awesome/) for post type icons.
 
-**Supports:** 
-- Posts, Videos, Photos, Links and Quotes (Audio left out).
-- Same-day posts under one date (removes duplicates).
+### HOW TO:
 
 To pull in another feed edit ````var blog_url ```` with ````http://YOURBLOG.tumblr.com````.
 
@@ -21,5 +19,5 @@ Use this script on your own page and feed it using recipes from [IFTTT](https://
 - Create an RSS recipe to publish your Twitter and Github feeds to Tumblr.
 - To publish Spotify tracks, checkout the Sharing options within the Spotify app, you can post audio tracks to Tumblr (much better than Last.fm integration).
 
-### TODO: ###
+### TODO:
 - Code syntax hightlighting for Github Gists.
