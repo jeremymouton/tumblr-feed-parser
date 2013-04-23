@@ -19,6 +19,7 @@ Use this script on your own page and feed it using recipes from [IFTTT](https://
 - Dropbox to Tumblr [recipe](https://ifttt.com/recipes/90662)
 - Evernote to Tumblr [recipe](https://ifttt.com/recipes/90663)
 - Create an RSS recipe to publish your Twitter and Github feeds to Tumblr.
+- To publish Spotify tracks, checkout the Sharing options within the Spotify app, you can post audio tracks to Tumblr (much better than Last.fm integration).
 
 ### TODO: ###
 - Code syntax hightlighting for Github Gists.
