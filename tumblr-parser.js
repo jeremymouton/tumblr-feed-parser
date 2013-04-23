@@ -55,6 +55,11 @@ function formatPost(post) {
 		content = '<blockquote>' + post['quote-text'] + '</blockquote>';
 		icon    = 'icon-quote-right';
 		break;
+
+	case "audio":
+		content = post['audio-player'] + '<span class="song-caption">' + post['audio-caption'] + '</span>';
+		icon    = 'icon-music';
+		break;
 	}
 
 	// Send it to the view
