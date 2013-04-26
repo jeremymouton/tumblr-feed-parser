@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Feed Parser</title>
+	<title>Tumblr Feed Parser</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
@@ -23,8 +23,12 @@
 			margin-bottom: 20px;
 		}
 
+		.post img {
+			width: 100%;
+		}
+
 		.post i {
-			font-size: 36px;
+			font-size: 26px;
 			float: left;
 			display: block;
 			width: auto;
@@ -32,6 +36,10 @@
 
 		.post .content {
 			padding-left: 45px;
+		}
+
+		.post h3 {
+			line-height: 100%;
 		}
 
 		.post-date {
@@ -53,6 +61,18 @@
 
 		.song-caption {
 			display: block;
+		}
+
+		/* Hide Spotify album art */
+		
+		.spotify_audio_player {
+			height: 95px !important;
+			width: 100% !important;
+		}
+
+		.spotify_audio_player #widgetContainer #engageView,
+		.spotify_audio_player #widgetContainer #mainContainer {
+			display: none !important;
 		}
 
 		/* 
@@ -84,8 +104,12 @@
 <body>
 
 	<div class="container">
-		<h2>Tumblr Feed</h2>
-		<div id="main"></div>
+		<div class="row">
+			<div class="span12">
+				<h2>Tumblr Feed</h2>
+				<div id="main"></div>
+			</div>
+		</div>
 	</div> <!-- /container -->
 
 	<!-- Le javascript
