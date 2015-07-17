@@ -18,10 +18,6 @@ To turn it into the ultimate social aggregator feed, create some recipes with [I
 - For Spotify tracks, checkout the "sharing" options within the Spotify app [support link](http://support.spotify.com/us/learn-more/guides/#!/article/Sharing-music).
 - For the markdown junkies: [Markable](http://markable.in/).
 
-### WHAT?
-
-It's just a feed. You can see a working example on [www.jeremymouton.com](http://www.jeremymouton.com/).
-
 ### TODO:
 - Code syntax hightlighting for Github Gists.
 - Add "Chat" post option.
